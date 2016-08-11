@@ -119,6 +119,7 @@ I attempted to use the Classification Tree model, but the the run time was too l
 ## Predicition on the Test Set
 
 Finally, we test our model on the test data set.
+Finally, we test the Random Forrest model on the test data.
 
 ```{r Prediction on the Test Set}
 results <- predict(rf_model, test_clean)
